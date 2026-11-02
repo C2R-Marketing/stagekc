@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StageKC — Virtual Staging for Kansas City Listings | C2R Marketing</title>
+<meta name="description" content="Empty KC listing rooms, furnished in 24 hours. $25 per photo or $149 per listing. Every image labeled Virtually staged. Furniture only — never fixtures.">
+<!--
+  ============================================================
+  EMAIL CAPTURE ENDPOINT — the proven C2R BootForm endpoint
+  used by the other C2R landing pages (verified 2026-11-01 in
+  goals/replace-wages-with-10k-month-income/hidden_files/
+  day-01/one-page-site-template/index.html). The capture form
+  below POSTs to it natively, with the same field pattern
+  (name / email + _honeypot spam trap) plus a hidden
+  service="StageKC Virtual Staging" field so these leads
+  self-identify inside the shared form inbox.
+  If a dedicated StageKC form is created later, swap this
+  one constant.
+  ============================================================
+-->
+<script>
+  const FORM_ENDPOINT = "https://f.bootform.com/4c80d4c9-b5bc-4896-840d-4bf658d58dcd";
+</script>
+<style>
+  :root { --ink:#1c2430; --accent:#b8860b; --bg:#faf8f5; --card:#fff; --muted:#5a6472; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Georgia, 'Times New Roman', serif; color: var(--ink); background: var(--bg); line-height: 1.55; }
+  .wrap { max-width: 1020px; margin: 0 auto; padding: 0 20px; }
+  header { text-align: center; padding: 56px 20px 30px; }
+  header h1 { font-size: 2.6rem; letter-spacing: .5px; }
+  header h1 span { color: var(--accent); }
+  header p.sub { font-size: 1.2rem; color: var(--muted); margin-top: 10px; }
+  .cta-row { margin-top: 22px; }
+  .btn { display: inline-block; background: var(--accent); color: #fff; padding: 13px 30px; border-radius: 6px; text-decoration: none; font-size: 1.05rem; border: none; cursor: pointer; }
+  .btn:hover { opacity: .9; }
+  section { padding: 34px 0; }
+  h2 { font-size: 1.7rem; margin-bottom: 16px; text-align: center; }
+  .pairs { display: grid; grid-template-columns: 1fr; gap: 28px; }
+  .pair { background: var(--card); border: 1px solid #e5ded2; border-radius: 10px; padding: 16px; }
+  .pair .imgs { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .pair figure { text-align: center; }
+  .pair img { width: 100%; height: auto; border-radius: 6px; display: block; }
+  .pair figcaption { font-size: .9rem; color: var(--muted); margin-top: 6px; text-transform: uppercase; letter-spacing: 1px; }
+  .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .card { background: var(--card); border: 1px solid #e5ded2; border-radius: 10px; padding: 26px; text-align: center; }
+  .card .price { font-size: 2.4rem; color: var(--accent); }
+  .card ul { list-style: none; margin-top: 10px; color: var(--muted); }
+  .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; text-align: center; }
+  .step { background: var(--card); border: 1px solid #e5ded2; border-radius: 10px; padding: 22px; }
+  .step .n { font-size: 1.8rem; color: var(--accent); }
+  .disclosure { background: #f1ead9; border: 1px solid #ddd0ab; border-radius: 10px; padding: 22px 26px; }
+  form.capture { background: var(--card); border: 1px solid #e5ded2; border-radius: 10px; padding: 26px; max-width: 640px; margin: 0 auto; }
+  form.capture label { display: block; margin: 12px 0 4px; font-size: .95rem; }
+  form.capture input, form.capture textarea { width: 100%; padding: 10px; border: 1px solid #c9c2b4; border-radius: 5px; font-size: 1rem; font-family: inherit; }
+  form.capture .btn { margin-top: 18px; width: 100%; }
+  .formnote { font-size: .85rem; color: var(--muted); margin-top: 10px; text-align: center; }
+  footer { text-align: center; color: var(--muted); font-size: .9rem; padding: 36px 20px 46px; }
+  @media (max-width: 720px) { .cards, .steps, .pair .imgs { grid-template-columns: 1fr; } header h1 { font-size: 2rem; } }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>Stage<span>KC</span></h1>
+    <p class="sub">Virtual staging for Kansas City listings.<br>Empty rooms, furnished and back to you within 24 hours.</p>
+    <div class="cta-row"><a class="btn" href="#get-started">Get a free staged sample</a></div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>Before / After</h2>
+    <div class="pairs">
+      <div class="pair">
+        <div class="imgs">
+          <figure><img src="samples/before-1.jpg" alt="Empty living room before virtual staging"><figcaption>Before</figcaption></figure>
+          <figure><img src="samples/after-1.jpg" alt="Same living room virtually staged with modern furniture"><figcaption>After — Virtually staged</figcaption></figure>
+        </div>
+      </div>
+      <div class="pair">
+        <div class="imgs">
+          <figure><img src="samples/before-2.jpg" alt="Empty apartment room before virtual staging"><figcaption>Before</figcaption></figure>
+          <figure><img src="samples/after-2.jpg" alt="Same room virtually staged with a sectional sofa and decor"><figcaption>After — Virtually staged</figcaption></figure>
+        </div>
+      </div>
+      <div class="pair">
+        <div class="imgs">
+          <figure><img src="samples/before-3.jpg" alt="Empty dining space before virtual staging"><figcaption>Before</figcaption></figure>
+          <figure><img src="samples/after-3.jpg" alt="Same space virtually staged as a dining room"><figcaption>After — Virtually staged</figcaption></figure>
+        </div>
+      </div>
+    </div>
+    <p class="formnote">Sample rooms are stock photos staged by StageKC to demonstrate the service. Client photos are staged the same way.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Simple pricing</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="price">$25</div>
+        <strong>Per photo</strong>
+        <ul>
+          <li>One empty-room photo, furnished</li>
+          <li>Back within 24 hours</li>
+          <li>Labeled "Virtually staged"</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="price">$149</div>
+        <strong>Full listing — up to 6 photos</strong>
+        <ul>
+          <li>Whole vacant listing, one flat price</li>
+          <li>Back within 24 hours</li>
+          <li>Built for photographers &amp; agents</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>How it works</h2>
+    <div class="steps">
+      <div class="step"><div class="n">1</div><strong>Send your photos</strong><p>Empty-room shots from any current listing — phone photos are fine.</p></div>
+      <div class="step"><div class="n">2</div><strong>We stage them</strong><p>Modern furniture and decor, digitally placed. The room itself is never altered.</p></div>
+      <div class="step"><div class="n">3</div><strong>Back within 24 hours</strong><p>Listing-ready images, each one labeled "Virtually staged."</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="disclosure">
+      <h2 style="text-align:left;">Our staging rules — in writing</h2>
+      <p>Every image we deliver is labeled <strong>"Virtually staged."</strong> We add furniture and
+      decor only — <strong>never</strong> walls, flooring, fixtures, appliances, or renovations, and we
+      never remove anything that is really there. A buyer who walks through the front door should
+      never feel misled. Those rules protect your listings and your license, and we don't break them.</p>
+    </div>
+  </div>
+</section>
+
+<section id="get-started">
+  <div class="wrap">
+    <h2>Get your free staged sample</h2>
+    <form class="capture" id="captureForm" method="post" action="">
+      <label for="f-name">Your name</label>
+      <input id="f-name" name="name" type="text" required>
+      <label for="f-email">Business email</label>
+      <input id="f-email" name="email" type="email" required>
+      <label for="f-company">Brokerage / photography business (optional)</label>
+      <input id="f-company" name="company" type="text">
+      <label for="f-msg">Anything we should know? (optional)</label>
+      <textarea id="f-msg" name="message" rows="3"></textarea>
+      <input type="hidden" name="service" value="StageKC Virtual Staging">
+      <!-- Spam trap, same as the other C2R pages. Real people never see it. -->
+      <input type="text" name="_honeypot" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true">
+      <button class="btn" type="submit">Request my free sample</button>
+      <p class="formnote">We'll reply from eli@c2rmarketing.com with how to send your photo. No spam, ever.</p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>StageKC is a service of C2R Marketing, LLC · 10701 College Ave, Kansas City, MO 64137-1742</p>
+  <p>Questions? eli@c2rmarketing.com</p>
+</footer>
+
+<script>
+  // Point the capture form at the shared C2R BootForm endpoint (constant above).
+  document.getElementById('captureForm').action = FORM_ENDPOINT;
+</script>
+
+</body>
+</html>
